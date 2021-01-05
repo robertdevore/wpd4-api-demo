@@ -294,7 +294,7 @@ h2.entry-title {
 h1.site-title a,
 p.site-title a,
 h2.entry-title a {
-    color: #0085ba;
+    color: #76bd43;
     text-decoration: none;
 }
 
@@ -566,18 +566,18 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-    color: #0085ba;
+    color: #76bd43;
     outline: 0 !important;
 }
 
 a:visited {
-    color: #0085ba;
+    color: #76bd43;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #0085ba;
+    color: #76bd43;
 }
 
 a:focus {
@@ -1171,4 +1171,33 @@ ul.gallery li .caption .date {
         clear: both;
         display: block;
     }
+}
+
+/** Products Page */
+
+body.products main#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body.products main#main h1 {
+    flex-basis: 100%;
+}
+
+body.products #primary article.wpd-item {
+    display: flex;
+    flex-basis: 50%;
+    width: auto;
+    margin: 0;
+    flex-direction: column;
+}
+
+body.products main#main h2.entry-title {
+    text-align: center;
+}
+
+.wpd-pricing {
+    color: #666;
+    text-align: center;
 }
